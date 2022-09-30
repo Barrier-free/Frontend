@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        >
+
+        <Button
+            android:id="@+id/btn_game"
+            android:layout_width="1dp"
+            android:layout_height="130dp"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:outlineSpotShadowColor="@color/light_gray"
+            android:text="1.게임시작하기" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/btn_manual"
+            android:layout_width="1dp"
+            android:layout_height="130dp"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:text="2.아동맞춤        사용설명서" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        >
+
+        <Button
+            android:id="@+id/btn_make"
+            android:layout_width="1dp"
+            android:layout_height="130dp"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:outlineSpotShadowColor="@color/light_gray"
+            android:text="3.상황 맞춤카드  만들기" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/btn_word"
+            android:layout_width="1dp"
+            android:layout_height="130dp"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:text="4.단어장"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
